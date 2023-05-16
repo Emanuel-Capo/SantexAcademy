@@ -37,10 +37,15 @@ button:hover{
     cursor: pointer;
 }
 
-.nav-content{
+.nav-content{    
     width: 100%;
     position: fixed;
     top: 0;
+    border-bottom: 1px solid gray; 
+    height: 5rem;
+    line-height: 3.5rem;
+    justify-content: center;
+    background-color: white;
 }
 
 #navbar-left{
@@ -60,13 +65,10 @@ div#navbar-left img {
 }
 
 .nav{
+    max-width: 75rem;
     display: flex; 
-    background-color: white;
-    border-bottom: 1px solid gray; 
-    padding: 0 1.9rem; 
     justify-content: space-between;
-    height: 5rem;
-    justify-items: center;
+    margin: 0 auto;
 }
 
 .top{
