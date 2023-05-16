@@ -6,25 +6,293 @@ html {
     font-size: 16px;
 }
 
-p {
-    margin-right: 2em;
+.menu {
     font-weight: bold;
-    font-size: 0.9em;
+    font-size: 0.8em;
     font-weight: 500;
+    cursor: pointer;
+}
+
+header{
+    margin-top: 5rem;;
 }
 
 button {
     background-color: white;
     border-radius: 30px;
     padding: 0px 1.5em;
-    height: 2.5em;
+    height: 2.3rem;
+    line-height: 2.3rem;
     border: 2px solid black;
     font-size: 0.8em;
-    width: 8em;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.nav-content{
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+#navbar-left{
+    display: flex;
+}
+
+#navbar-right{
+    width: 44rem;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
 }
 
 div#navbar-left img {
-    width: 8em;
+    width: 9rem;
+    margin: 0 auto;
+}
+
+.nav{
+    display: flex; 
+    background-color: white;
+    border-bottom: 1px solid gray; 
+    padding: 0 1.9rem; 
+    justify-content: space-between;
+    height: 5rem;
+    justify-items: center;
+}
+
+.top{
+    padding: 60px 30px;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+}
+
+.title h1{
+    text-align: center;
+    width: 36rem;
+    font-size: 1.75rem;
+}
+
+.butons-top{
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.button-blue{
+    margin-left: 1rem;
+    border-color: #6b53f0;
+    color: #6b53f0;
+}
+
+.button-blue:hover{
+    background-color: #6b53f0;
+    color: white;
+}
+
+.background{
+    background-color: rgba(255, 255, 255, 0); 
+    background-image: url("https://technologywithpurpose.org/wp-content/uploads/2022/11/twp-home.jpg"); 
+    background-position: center center; 
+    background-repeat: no-repeat; 
+    border-width: 0px; 
+    border-style: solid; background-size: 
+    cover; background-attachment: 
+    fixed; height: calc(100vh - 80px);
+}
+
+.sub{
+    background-color: #201b24;
+    height: 11.5rem;
+    padding: 120px 30px 100px;
+    display: flex;
+    color: white;
+    justify-content: center;
+}
+
+.parrafo{
+    width: 23rem;
+    padding-right: 3rem;
+}
+
+.parrafo h1{
+    font-size: 1.87rem;
+}
+
+.parrafo p{
+    font-size: 0.85rem;
+    line-height: 1.3rem;
+}
+
+.p-big{
+    font-size: 3.1rem;
+    font-weight: 800;
+    margin: 0;
+}
+
+.p-big span{
+    font-size: 2rem;
+    color: #6b53f0;
+    vertical-align:middle;
+}
+
+.p-ligth{
+    color: #8c939c;
+    margin: 0;
+}
+
+.sq-container{
+    display: flex;
+    width: 26rem;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.square{
+    padding: 0.8rem;
+    text-align: center;
+}
+
+.card{
+    padding: 0 2rem 1rem;
+    max-width: 78rem;
+    margin: 0 auto;
+}
+
+.card h1{
+    margin: 0;
+    font-size: 1.9rem;
+    margin-bottom: 2rem;
+    display: flex;
+}
+
+.photo{
+    border-radius: 0 40px 40px 40px;
+    width: 36rem;
+}
+
+.flex{
+    display: flex;
+}
+
+.xacad{
+    width: 12.5rem;
+}
+
+.parag{
+    font-size: 0.9rem;
+}
+
+.card-text{
+    margin: auto 4.6rem;
+    width: 30rem;
+}
+
+.card-text h3{
+    font-size: 1.4rem;
+}
+
+.team{
+    background-color: #f4f4f5;
+    padding: 3.75rem 2rem;
+    max-width: 78rem;
+    margin: 0 auto;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.team h2{
+    font-size: 1.9rem;
+    margin: 0 0 2rem;
+}
+
+.card-team{
+    width: 14rem;
+    height: 19.3rem;
+    text-align: center;
+    background-color: white;
+    border-radius: 20px 20px 20px 0;
+    overflow: hidden;
+    margin: 0 0.55rem 1rem;
+}
+
+.card-team img{
+    max-width: 100%;
+}
+
+.card-team h4{
+    font-size: 1.13rem;
+    margin: 1.2rem 0 0;
+}
+
+.card-team p{
+    font-size: 0.9rem;
+    color: #8c939c;
+    margin: 0;
+}
+
+.card-team button{
+    padding: 0 10px;
+    margin-top: 10px;
+}
+
+.card-team button:hover{
+    background-color: #6b53f0;
+    border-color: #6b53f0;
+    color: white;
+}
+
+.alian{
+    font-size: 1.2rem;
+    padding: 3.75rem 2rem;
+    max-width: 78rem;
+    margin: 0 auto;
+}
+
+.brands{
+    display: flex;
+    justify-content: space-around;
+}
+
+.brands img {
+    width: 12.5rem;
+    cursor: pointer;
+}
+
+.footter{
+    background-color: #201b24;
+    padding: 3.75rem 8rem 3.75rem 2rem;
+    max-width: 78rem;
+    margin: 0 auto;
+    display: flex;
+    color: #d9d9d9;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footter p{
+    width: 16.5rem;
+    font-size: 0.8rem;
+}
+
+.footter div h4{
+    margin: 0.3rem 0;
+    cursor: pointer;
+    font-size: 0.9rem;
 }
 
 @media (width >= 2500px) {
